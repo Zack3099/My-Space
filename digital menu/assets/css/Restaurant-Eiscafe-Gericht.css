@@ -1,0 +1,31 @@
+h3 {
+  color: var(--bs-green);
+  font-family: 'Baloo 2';
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: 'Baloo 2';
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.gericht {
+  position: relative;
+}
+
+.gericht:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  border-top: 1px dotted gray;
+}
+
+.gericht p {
+  margin: 5px 0px 0px 0px;
+}
+
