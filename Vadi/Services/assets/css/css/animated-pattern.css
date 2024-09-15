@@ -1,0 +1,57 @@
+/* بکگراوند نظرات */
+
+.background-comment {
+  display: flex;
+  background: #434242;
+  background: linear-gradient( 135deg, #434242 25%, #695b07 25%, #695b07 50%, #434242 50%, #434242 75%, #695b07 75%, #695b07 );
+  background-size: 100px 100px;
+  animation: move 2.5s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100px 100px;
+  }
+}
+
+/* بکگراوند خدمات */
+
+.blur-back {
+  background: linear-gradient(-45deg, #3c3c3b, #83710c, #3c3c3b);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.blur-back2 {
+  background: linear-gradient(-45deg, #83710c, #3c3c3b, #83710c);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+

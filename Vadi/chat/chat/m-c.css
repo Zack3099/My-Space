@@ -1,0 +1,109 @@
+.modalchat {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+.modal-contentchat {
+    background-color: gold;
+    margin: 100px 950px; 
+    padding: 20px;
+    border: 1px solid #888;
+    color: #fefefe;
+    width: 450PX; 
+    height: 350px;
+    border-radius: 20PX;
+    border: 2px solid black;
+
+
+}
+#openBtnchat{
+    width: 70px;
+    height: 70px;
+    background-color: #32628c;
+    color: #ffffff;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    border: 2px solid white;
+    margin-top: 600px;
+    margin-left: 1350px;
+    position: fixed;
+    
+}
+#openBtnchat svg:hover{
+    transition: all 0.9s;
+    transform: rotate(360deg);
+}
+
+.closechat {
+    color: #ea0a0a;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closechat:hover,
+.closechat:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-chat{
+    background-color: gold;
+    color: #fefefe;
+    font-size: 30PX;
+}
+.header-chat strong{
+    display: block;
+    padding: 10px;
+    text-align: center;
+
+}
+.header-chat img{
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 2PX solid black;
+    margin-LEFT: 150PX;
+}
+.pic1{
+    margin-right: -170PX;
+}
+.pic2{
+    margin-right: -170PX;
+}
+    
+
+.recive-send-p{
+    background-color: #fefefe;
+    width: 450px;
+    height: 150px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.send-btn-c{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(16, 113, 151);
+    color: white;
+    border-radius: 100%;
+    margin-left:400px;
+    margin-top:-35px;
+    transition: all 0.9s;
+}
+.send-btn-c:hover{
+    transform: rotate(360deg);
+}
+.send-btn-c svg{
+    margin-left: 7px;
+    margin-top: 7px;
+
+}

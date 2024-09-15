@@ -1,0 +1,9 @@
+a:hover {
+  /*background-color: var(--bs-green);*/
+  --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+}
+
+* {
+  box-sizing: border-box;
+}
+

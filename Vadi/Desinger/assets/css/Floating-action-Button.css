@@ -1,0 +1,95 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img, svg {
+  vertical-align: middle;
+}
+
+button {
+  border-radius: 0;
+}
+
+input, button, select, optgroup, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
+  cursor: pointer;
+}
+
+.text-end {
+  text-align: right !important;
+}
+
+.text-break {
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+}
+
+@media (min-width: 1400px) {
+  .d-xxl-flex {
+    display: flex !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .justify-content-xxl-end {
+    justify-content: flex-end !important;
+  }
+}
+
+::selection {
+  background: #fed136;
+  text-shadow: none;
+}
+
+img::selection {
+  background: transparent;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--bs-border-color-translucent);
+  color: rgba(255,255,255,0);
+  /*border-radius: 50%;*/
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
+}
+
